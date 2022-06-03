@@ -1,0 +1,52 @@
+body{
+    background: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    background: #ccc;
+    padding: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height:600px;
+}
+
+#mapContainer{
+    height: 450px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+.button-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 10px 15px;
+    background: #ddd;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 10px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background: #2EC1EF;
+}
+
+.btn-secondary{
+    background: #9A2EEF;
+}
+
